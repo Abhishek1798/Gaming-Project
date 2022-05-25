@@ -23,15 +23,15 @@ function refresh()
 
 if(randomnumber1>randomnumber2){
     document.querySelector("h1").innerHTML="🚩 Player_1!";
-    const v=setTimeout(refresh,3000);
+    setTimeout(refresh,3000);
     
 }
 else if(randomnumber1<randomnumber2){
     document.querySelector("h1").innerHTML="Player_2!🚩";
-    const v=setTimeout(refresh,3000);
+    setTimeout(refresh,3000);
 }
 else
 {
     document.querySelector("h1").innerHTML="Draw!";
-    const v=setTimeout(refresh,3000);
+    setTimeout(refresh,3000);
 }
